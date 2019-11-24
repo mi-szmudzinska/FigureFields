@@ -21,7 +21,7 @@ public class Trapeze extends Figures {
 
         return a;
     }
-    
+
     public double getB() {
 
         return b;
