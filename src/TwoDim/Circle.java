@@ -8,6 +8,7 @@ import Figure.Figures;
 public class Circle extends Figures {
 
     private final double PIi=3.1415;
+    private double r;
 
     public Circle(double r, double PIi) {
         super(r*r*PIi);
@@ -20,5 +21,4 @@ public class Circle extends Figures {
         return r;
     }
 
-    private double r;
 }

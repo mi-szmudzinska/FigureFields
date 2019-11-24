@@ -5,16 +5,16 @@ import Figure.Figures;
 
 public class Square extends Figures {
 
-    public Square(double d) {
-        super(d*d);
-        this.d=d;
+    private double a;
+
+    public Square(double a) {
+        super(a*a);
+        this.a=a;
         this.type= FigureType.TwoD;
     }
 
-    public double getD() {
+    public double getA() {
 
-        return d;
+        return a;
     }
-
-    private double d;
 }
