@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import Enums.FigureType;
+import TwoDim.Square;
 
 public class App {
 
