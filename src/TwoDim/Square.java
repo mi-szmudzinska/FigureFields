@@ -17,4 +17,15 @@ public class Square extends Figures {
 
         return a;
     }
+    private boolean checkifSquare(double a) {
+        try {
+            if (a<0 && a>1000)
+                throw new ArithmeticException("This is not a square");
+            else
+                return true;
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+            return false;
+        }
+    }
 }

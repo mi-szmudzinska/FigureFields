@@ -7,7 +7,7 @@ import Figure.Figures;
 
 public class Circle extends Figures {
 
-    private final double PIi=3.1415;
+//    public final double PIi=3.1415;
     private double r;
 
     public Circle(double r, double PIi) {
