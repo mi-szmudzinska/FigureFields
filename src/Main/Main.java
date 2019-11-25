@@ -18,8 +18,8 @@ public class Main extends Switchh{
         System.out.println("[8] Walec");
         System.out.println("[9] Zakończ program");
         System.out.println("***************************************");
-        Scanner wybor = new Scanner(System.in);
-        String xx = wybor.nextLine();
+//        Scanner wybor = new Scanner(System.in);
+//        String xx = wybor.nextLine();
         new Switchh();
 
 
