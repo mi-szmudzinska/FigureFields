@@ -14,6 +14,7 @@ public class Cube extends Figures {
     }
 
     public double getA() {
+
         return a;
     }
 

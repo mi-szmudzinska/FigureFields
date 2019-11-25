@@ -2,20 +2,18 @@ package Figure;
 
 import Enums.FigureType;
 
+public class Figures{
 
-public class Figures {
+        private double area;
+        protected FigureType type;
 
-    private double area;
-    protected FigureType type;
+        public Figures(double area) {
+            this.area = area;
+        }
 
-    public Figures(double area) {
+        public double getArea() {
+                return area;
 
-        this.area = area;
+        }
+
     }
-
-    public double getArea() {
-
-        return area;
-    }
-
-}

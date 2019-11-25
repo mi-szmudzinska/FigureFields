@@ -6,9 +6,8 @@ import java.util.Scanner;
 public class Main extends Switchh{
     public static void main(String[] args) {
 
-
+        System.out.println("Program obliczający pola figur");
         do{
-            System.out.println("Program obliczający pola figur");
             System.out.println("***************************************");
             System.out.println("Wybierz figurę ktorej chcesz policzyć pole:");
             System.out.println("[1] Kwadrat");
@@ -24,7 +23,5 @@ public class Main extends Switchh{
 
             new Switchh();
         }while(true);
-
-
     }
 }
