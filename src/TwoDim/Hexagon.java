@@ -10,7 +10,7 @@ public class Hexagon extends Figures {
     private double a;
 
     public Hexagon(double a) {
-        super(0.5*a*a*sqrt(3)*6);
+        super(0.25*a*a*sqrt(3)*6);
         this.a=a;
         this.type= FigureType.TwoD;
     }
