@@ -5,15 +5,15 @@ import Figure.Figures;
 
 public class Cube extends Figures {
 
-    private double a;
+    private float a;
 
-    public Cube(double a) {
+    public Cube(float a) {
         super(6*a*a);
         this.a=a;
         this.type= FigureType.ThreeD;
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }

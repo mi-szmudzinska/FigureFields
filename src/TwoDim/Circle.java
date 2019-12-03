@@ -7,16 +7,15 @@ import Figure.Figures;
 
 public class Circle extends Figures {
 
-//    public final double PIi=3.1415;
-    private double r;
+    private float r;
 
-    public Circle(double r, double PIi) {
-        super(r*r*PIi);
+    public Circle(float r, double PI) {
+        super(r*r*PI);
         this.r=r;
         this.type= FigureType.TwoD;
     }
 
-    public double getR() {
+    public float getR() {
 
         return r;
     }

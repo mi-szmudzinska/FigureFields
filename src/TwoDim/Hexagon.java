@@ -7,15 +7,15 @@ import static java.lang.StrictMath.sqrt;
 
 public class Hexagon extends Figures {
 
-    private double a;
+    private float a;
 
-    public Hexagon(double a) {
+    public Hexagon(float a) {
         super(0.25*a*a*sqrt(3)*6);
         this.a=a;
         this.type= FigureType.TwoD;
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }

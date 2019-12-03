@@ -5,22 +5,22 @@ import Figure.Figures;
 
 public class Triangle extends Figures {
 
-    private double a;
-    private double h;
+    private float a;
+    private float h;
 
-    public Triangle(double a, double h) {
+    public Triangle(float a, float h) {
         super(0.5*a*h);
         this.a=a;
         this.h=h;
         this.type= FigureType.TwoD;
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }
 
-    public double getH() {
+    public float getH() {
 
         return h;
     }

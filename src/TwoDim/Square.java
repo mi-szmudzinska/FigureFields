@@ -7,9 +7,9 @@ import Main.Check;
 
 public class Square extends Figures {
 
-    private double a;
+    private float a;
 
-    public Square(double a) {
+    public Square(float a) {
         super(a*a);
         this.a=a;
         new Check(a);
@@ -17,7 +17,7 @@ public class Square extends Figures {
 
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }

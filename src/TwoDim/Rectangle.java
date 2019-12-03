@@ -5,22 +5,22 @@ import Figure.Figures;
 
 public class Rectangle extends Figures {
 
-    private double a;
-    private double b;
+    private float a;
+    private float b;
 
-    public Rectangle(double a, double b) {
+    public Rectangle(float a, float b) {
         super(a*b);
         this.a=a;
         this.b=b;
         this.type= FigureType.TwoD;
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }
 
-    public double getB() {
+    public float getB() {
 
         return b;
     }

@@ -5,22 +5,21 @@ import Figure.Figures;
 
 public class Roller extends Figures {
 
-    private double H,r;
-    private final double PIi=3.1415;
+    private float H,r;
 
-    public Roller(double H, double r, double PIi) {
-        super(2*r*r*PIi+H*2*PIi*r);
+    public Roller(float H, float r, double PI) {
+        super(2*r*r*PI+H*2*PI*r);
         this.r=r;
         this.H=H;
         this.type= FigureType.ThreeD;
     }
 
-    public double getH() {
+    public float getH() {
 
         return H;
     }
 
-    public double getR() {
+    public float getR() {
 
         return r;
     }

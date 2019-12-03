@@ -5,11 +5,11 @@ import Figure.Figures;
 
 public class Trapeze extends Figures {
 
-    private double a;
-    private double b;
-    private double h;
+    private float a;
+    private float b;
+    private float h;
 
-    public Trapeze(double a, double b, double h) {
+    public Trapeze(float a, float b, float h) {
         super(0.5*(a+b)*h);
         this.a=a;
         this.b=b;
@@ -17,17 +17,17 @@ public class Trapeze extends Figures {
         this.type= FigureType.TwoD;
     }
 
-    public double getA() {
+    public float getA() {
 
         return a;
     }
 
-    public double getB() {
+    public float getB() {
 
         return b;
     }
 
-    public double getH() {
+    public float getH() {
 
         return h;
     }
