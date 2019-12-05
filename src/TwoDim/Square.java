@@ -12,7 +12,7 @@ public class Square extends Figures {
     public Square(float a) {
         super(a*a);
         this.a=a;
-        new Check(a);
+        //new Check(a);
         this.type= FigureType.TwoD;
 
     }

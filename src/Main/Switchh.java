@@ -9,9 +9,9 @@ import java.util.Scanner;
 import static java.lang.Math.PI;
 import static java.lang.System.exit;
 
-public class Switchh extends Check{
+public class Switchh {
 
-    private float area;
+   // private float area;
 
     public Switchh(){
         Scanner wybor = new Scanner(System.in);
@@ -25,7 +25,8 @@ public class Switchh extends Check{
                     System.out.println("Podaj długość boku:___[cm]");
                     Scanner dlugosc = new Scanner(System.in);
                     Float a = dlugosc.nextFloat();
-                    if ((a < 0) || (a > 10000)) {
+ //                   new Check(a);
+                    if (a < 0) {
                         System.out.println("Błędnie wprowadzone dane!");
                     }
                     else {
@@ -137,7 +138,10 @@ public class Switchh extends Check{
 
             default:
                 System.out.println("****************************************");
+                System.out.println("Błędnie wybrana figura lub opcja");
+                System.out.println("****************************************");
             }
         }
-    }
+
+}
 

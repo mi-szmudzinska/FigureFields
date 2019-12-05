@@ -2,20 +2,21 @@ package Main;
 import Main.Switchh;
 import TwoDim.Square;
 
+import java.util.Scanner;
+
 public class Check {
 
-    private Double a;
+//    Scanner dlugosc = new Scanner(System.in);
+//    Float a = dlugosc.nextFloat();
 
-    public Check(double a) {
+    public Check(float a, float b, float c, float d) {
+        if ((a < 0) || (b < 0) || (c < 0) || (d < 0)) {
+            System.out.println("Błędnie wprowadzone dane!");
+        } else {
+            System.out.println("***************************************");
 
-            if ((a < 0) || (a > 10000)) {
-                System.out.println("Błędnie wprowadzone dane!");
-            } else {
-                System.out.println("***************************************");
+        }
 
-            }
     }
 
-    public Check() {
-    }
 }
