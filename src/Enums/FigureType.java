@@ -4,4 +4,6 @@ public enum FigureType {
     TwoD,
     ThreeD;
 
+    private FigureType() {
+    }
 }

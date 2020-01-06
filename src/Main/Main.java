@@ -1,13 +1,13 @@
 package Main;
 
-import javax.swing.*;
-import java.util.Scanner;
+public class Main extends Switchh {
+    public Main() {
+    }
 
-public class Main extends Switchh{
     public static void main(String[] args) {
-
         System.out.println("Program obliczający pola figur");
-        do{
+
+        while(true) {
             System.out.println("****************************************");
             System.out.println("Wybierz figurę której chcesz policzyć pole:");
             System.out.println("[1] Kwadrat");
@@ -20,8 +20,7 @@ public class Main extends Switchh{
             System.out.println("[8] Walec");
             System.out.println("[9] Zakończ program");
             System.out.println("****************************************");
-
             new Switchh();
-        }while(true);
+        }
     }
 }
