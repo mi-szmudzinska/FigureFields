@@ -1,4 +1,4 @@
-package Main;
+package com.figurefields.figure_choice;
 
 public class Check {
     public Check() {

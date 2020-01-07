@@ -1,13 +1,17 @@
-package Main;
+package com.figurefields;
 
-public class Main extends Switchh {
-    public Main() {
-    }
+import com.figurefields.figure_choice.FigureChoiceDirector;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Main {
 
     public static void main(String[] args) {
         System.out.println("Program obliczający pola figur");
 
-        while(true) {
+        FigureChoiceDirector figureChoiceDirector = new FigureChoiceDirector();
+        do {
             System.out.println("****************************************");
             System.out.println("Wybierz figurę której chcesz policzyć pole:");
             System.out.println("[1] Kwadrat");
@@ -20,7 +24,17 @@ public class Main extends Switchh {
             System.out.println("[8] Walec");
             System.out.println("[9] Zakończ program");
             System.out.println("****************************************");
-            new Switchh();
-        }
+
+            Scanner scanner = new Scanner(System.in);
+            try {
+                int choice = scanner.nextInt();
+                figureChoiceDirector.selectFigure(choice);
+            } catch (InputMismatchException e) {
+                System.out.println("****************************************");
+                System.out.println(Constants.BLEDNE_DANE);
+                System.out.println("****************************************");
+            }
+
+        } while (true);
     }
 }

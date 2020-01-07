@@ -1,15 +1,18 @@
-package TwoDim;
+package com.figurefields.figures.two_dim;
 
-import Enums.FigureType;
-import Figure.Figures;
+import com.figurefields.figures.Figure;
+import com.figurefields.figures.FigureType;
 
-public class Trapeze extends Figures {
+public class Trapeze extends Figure {
+
     private float a;
+
     private float b;
+
     private float h;
 
     public Trapeze(float a, float b, float h) {
-        super(0.5F * (double)(a + b) * (double)h);
+        super(0.5 * (a + b) * h);
         this.a = a;
         this.b = b;
         this.h = h;
@@ -17,14 +20,15 @@ public class Trapeze extends Figures {
     }
 
     public float getA() {
-        return this.a;
+        return a;
     }
 
     public float getB() {
-        return this.b;
+        return b;
     }
 
     public float getH() {
-        return this.h;
+        return h;
     }
+
 }

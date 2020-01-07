@@ -1,24 +1,27 @@
-package TwoDim;
+package com.figurefields.figures.two_dim;
 
-import Enums.FigureType;
-import Figure.Figures;
+import com.figurefields.figures.Figure;
+import com.figurefields.figures.FigureType;
 
-public class Rectangle extends Figures {
+public class Rectangle extends Figure {
+
     private float a;
+
     private float b;
 
     public Rectangle(float a, float b) {
-        super((double)(a * b));
+        super(a * b);
         this.a = a;
         this.b = b;
         this.type = FigureType.TwoD;
     }
 
     public float getA() {
-        return this.a;
+        return a;
     }
 
     public float getB() {
-        return this.b;
+        return b;
     }
+
 }

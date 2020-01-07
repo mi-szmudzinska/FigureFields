@@ -1,24 +1,27 @@
-package TwoDim;
+package com.figurefields.figures.two_dim;
 
-import Enums.FigureType;
-import Figure.Figures;
+import com.figurefields.figures.FigureType;
+import com.figurefields.figures.Figure;
 
-public class Triangle extends Figures {
+public class Triangle extends Figure {
+
     private float a;
+
     private float h;
 
     public Triangle(float a, float h) {
-        super(0.5F * (double)a * (double)h);
+        super(0.5 * a * h);
         this.a = a;
         this.h = h;
         this.type = FigureType.TwoD;
     }
 
     public float getA() {
-        return this.a;
+        return a;
     }
 
     public float getH() {
-        return this.h;
+        return h;
     }
+
 }

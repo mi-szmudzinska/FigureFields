@@ -1,9 +1,6 @@
-package Enums;
+package com.figurefields.figures;
 
 public enum FigureType {
     TwoD,
     ThreeD;
-
-    private FigureType() {
-    }
 }
