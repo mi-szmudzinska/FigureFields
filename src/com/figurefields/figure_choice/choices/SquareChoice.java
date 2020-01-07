@@ -1,11 +1,11 @@
 package com.figurefields.figure_choice.choices;
 
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.two_dim.Square;
-
-import java.util.Scanner;
 
 public class SquareChoice extends FigureChoice {
 
@@ -22,7 +22,7 @@ public class SquareChoice extends FigureChoice {
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-        System.out.println("Podaj d�ugo�� boku:___[cm]");
+        System.out.println("Podaj długość boku:___[cm]");
         dlugoscBoku = scanner.nextFloat();
     }
 

@@ -1,13 +1,13 @@
 package com.figurefields.figure_choice.choices;
 
+//import static java.lang.Math.PI;
+
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.two_dim.Circle;
-
-import java.util.Scanner;
-
-import static java.lang.Math.PI;
 
 public class CircleChoice extends FigureChoice {
 
@@ -19,12 +19,14 @@ public class CircleChoice extends FigureChoice {
 
     @Override
     protected String pobierzNazweFigury() {
-        return "KOŁO";
+        return "KOĹ�O";
     }
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-         dlugoscProm = scanner.nextFloat();
+
+        System.out.println("Podaj dlugoĹ›Ä‡ promienia:___[cm]");
+        dlugoscProm = scanner.nextFloat();
     }
 
     @Override
@@ -34,6 +36,7 @@ public class CircleChoice extends FigureChoice {
 
     @Override
     protected Figure stworzFigure() {
-        return new Circle(dlugoscProm, PI);
+
+        return new Circle(dlugoscProm, Math.PI);
     }
 }

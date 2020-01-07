@@ -1,11 +1,11 @@
 package com.figurefields.figure_choice.choices;
 
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.two_dim.Triangle;
-
-import java.util.Scanner;
 
 public class TriangleChoice extends FigureChoice {
 
@@ -18,14 +18,14 @@ public class TriangleChoice extends FigureChoice {
 
     @Override
     protected String pobierzNazweFigury() {
-        return "TROJK�T";
+        return "TROJKĄT";
     }
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-        System.out.println("Podaj dlugo�� podstawy:___[cm]");
+        System.out.println("Podaj dlugość podstawy:___[cm]");
         dlugoscPodstawy = scanner.nextFloat();
-        System.out.println("Podaj wysoko�� tr�jkata:___[cm]");
+        System.out.println("Podaj wysokość trójkata:___[cm]");
         wysokoscTrojkata = scanner.nextFloat();
     }
 

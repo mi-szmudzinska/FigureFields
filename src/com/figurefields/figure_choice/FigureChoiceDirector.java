@@ -1,11 +1,18 @@
 package com.figurefields.figure_choice;
 
-import com.figurefields.Constants;
-import com.figurefields.figure_choice.choices.*;
+import static java.lang.System.exit;
 
 import java.util.Scanner;
 
-import static java.lang.System.exit;
+import com.figurefields.Constants;
+import com.figurefields.figure_choice.choices.CircleChoice;
+import com.figurefields.figure_choice.choices.CubeChoice;
+import com.figurefields.figure_choice.choices.HexagonChoice;
+import com.figurefields.figure_choice.choices.RectangleChoice;
+import com.figurefields.figure_choice.choices.RollerChoice;
+import com.figurefields.figure_choice.choices.SquareChoice;
+import com.figurefields.figure_choice.choices.TrapezeChoice;
+import com.figurefields.figure_choice.choices.TriangleChoice;
 
 /*
   Klasa ktora opowiada za stworzenie odpowieniej instancji FigureInputChoice.

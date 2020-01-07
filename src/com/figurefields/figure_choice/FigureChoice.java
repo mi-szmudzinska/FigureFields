@@ -1,10 +1,10 @@
 package com.figurefields.figure_choice;
 
-import com.figurefields.Constants;
-import com.figurefields.figures.Figure;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+import com.figurefields.Constants;
+import com.figurefields.figures.Figure;
 
 /*
     Klasa abstrakcyjna, ktora odpowiada za wprowadzanie danych przez uzytkownika dla odpowieniej figury.
@@ -37,6 +37,7 @@ public abstract class FigureChoice {
                 wypiszDaneNiepoprawne();
             }
         } catch (InputMismatchException e) {
+            scanner.nextLine();
             wypiszDaneNiepoprawne();
         }
 

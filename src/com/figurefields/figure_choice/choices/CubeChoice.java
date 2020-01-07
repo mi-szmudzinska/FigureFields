@@ -1,11 +1,11 @@
 package com.figurefields.figure_choice.choices;
 
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.tree_dim.Cube;
-
-import java.util.Scanner;
 
 public class CubeChoice extends FigureChoice {
 

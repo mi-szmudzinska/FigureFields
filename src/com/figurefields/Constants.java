@@ -5,6 +5,6 @@ package com.figurefields;
  */
 public class Constants {
 
-    public static final String BLEDNE_DANE = "B��dnie wprowadzone dane!";
+    public static final String BLEDNE_DANE = "Błędnie wprowadzone dane!";
 
 }

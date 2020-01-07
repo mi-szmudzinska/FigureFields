@@ -1,11 +1,11 @@
 package com.figurefields.figure_choice.choices;
 
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.two_dim.Trapeze;
-
-import java.util.Scanner;
 
 public class TrapezeChoice extends FigureChoice {
 
@@ -26,10 +26,10 @@ public class TrapezeChoice extends FigureChoice {
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-        System.out.println("Podaj dlugo�ci podstaw:___[cm]");
+        System.out.println("Podaj dlugości podstaw:___[cm]");
         dlugoscPod1 = scanner.nextFloat();
         dlugoscPod2 = scanner.nextFloat();
-        System.out.println("Podaj wysoko�� trapezu:___[cm]");
+        System.out.println("Podaj wysokość trapezu:___[cm]");
         wysokosc = scanner.nextFloat();
     }
 

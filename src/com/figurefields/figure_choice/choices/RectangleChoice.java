@@ -1,11 +1,11 @@
 package com.figurefields.figure_choice.choices;
 
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.two_dim.Rectangle;
-
-import java.util.Scanner;
 
 public class RectangleChoice extends FigureChoice {
 
@@ -19,14 +19,14 @@ public class RectangleChoice extends FigureChoice {
 
     @Override
     protected String pobierzNazweFigury() {
-        return "PROSTOK�T";
+        return "PROSTOKĄT";
     }
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-        System.out.println("Podaj wysoko��:___[cm]");
+        System.out.println("Podaj wysokość:___[cm]");
         this.wysokosc = scanner.nextFloat();
-        System.out.println("Podaj szeroko��:___[cm]");
+        System.out.println("Podaj szerokość:___[cm]");
         this.szerokosc = scanner.nextFloat();
     }
 

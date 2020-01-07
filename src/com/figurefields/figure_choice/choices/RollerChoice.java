@@ -1,13 +1,13 @@
 package com.figurefields.figure_choice.choices;
 
+import static java.lang.Math.PI;
+
+import java.util.Scanner;
+
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
 import com.figurefields.figures.Figure;
 import com.figurefields.figures.tree_dim.Roller;
-
-import java.util.Scanner;
-
-import static java.lang.Math.PI;
 
 public class RollerChoice extends FigureChoice {
 
@@ -26,9 +26,9 @@ public class RollerChoice extends FigureChoice {
 
     @Override
     protected void zaladujeParametryWejsciowe() {
-        System.out.println("Podaj wysoko�� walca:___[cm]");
+        System.out.println("Podaj wysokość walca:___[cm]");
         wysokoscWalca = scanner.nextFloat();
-        System.out.println("Podaj promie� podstawy:___[cm]");
+        System.out.println("Podaj promień podstawy:___[cm]");
         promienWalca = scanner.nextFloat();
     }
 
