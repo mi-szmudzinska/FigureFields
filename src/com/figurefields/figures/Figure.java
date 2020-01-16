@@ -7,6 +7,7 @@ public class Figure {
     protected FigureType type;
 
     public Figure(double area) {
+
         this.area = area;
     }
 

@@ -1,5 +1,4 @@
 package com.figurefields;
-
 /**
  * Klasa przechwujaca stale - np takie jak napisy
  */

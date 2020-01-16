@@ -15,10 +15,12 @@ public class Roller extends Figure {
     }
 
     public float getH() {
+
         return H;
     }
 
     public float getR() {
+
         return r;
     }
 

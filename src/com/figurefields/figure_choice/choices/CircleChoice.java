@@ -19,13 +19,13 @@ public class CircleChoice extends FigureChoice {
 
     @Override
     protected String pobierzNazweFigury() {
-        return "KOĹ�O";
+        return "KOŁO";
     }
 
     @Override
     protected void zaladujeParametryWejsciowe() {
 
-        System.out.println("Podaj dlugoĹ›Ä‡ promienia:___[cm]");
+        System.out.println("Podaj dlugość promienia:___[cm]");
         dlugoscProm = scanner.nextFloat();
     }
 

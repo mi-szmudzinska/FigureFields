@@ -34,7 +34,6 @@ public class Main {
                 System.out.println(Constants.BLEDNE_DANE);
                 System.out.println("****************************************");
             }
-
         } while (true);
     }
 }

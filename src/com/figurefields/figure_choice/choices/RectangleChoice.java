@@ -14,6 +14,7 @@ public class RectangleChoice extends FigureChoice {
     private float wysokosc;
 
     public RectangleChoice(InputValidator inputValidator, Scanner scanner) {
+
         super(inputValidator, scanner);
     }
 

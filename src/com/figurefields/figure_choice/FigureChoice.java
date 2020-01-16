@@ -29,18 +29,18 @@ public abstract class FigureChoice {
         System.out.println(description);
         System.out.println("****************************************");
 
-        try {
+        //try {
             zaladujeParametryWejsciowe();
             if (czyParametryWejsciowePoprawne()) {
                 wypiszPoprawneDane();
             } else {
-                wypiszDaneNiepoprawne();
+                throw new InputMismatchException();
+                //wypiszDaneNiepoprawne();
             }
-        } catch (InputMismatchException e) {
-            scanner.nextLine();
-            wypiszDaneNiepoprawne();
-        }
-
+//        } catch (InputMismatchException e) {
+//            scanner.nextLine();
+//            wypiszDaneNiepoprawne();
+//        }
         System.out.println("****************************************");
     }
 
@@ -50,9 +50,14 @@ public abstract class FigureChoice {
 
     protected abstract boolean czyParametryWejsciowePoprawne();
 
+    public boolean jestPoprawna(){
+        return czyParametryWejsciowePoprawne();
+    }
+
     protected abstract Figure stworzFigure();
 
     public void wypiszDaneNiepoprawne() {
+
         System.out.println(Constants.BLEDNE_DANE);
     }
 
