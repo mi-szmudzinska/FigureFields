@@ -1,5 +1,4 @@
 package com.figurefields.figure_choice;
-
 /*
    Klasa sprawdzajaca poprawnosc wprowadzonych przez uzytkownika danych
  */

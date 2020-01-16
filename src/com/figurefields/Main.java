@@ -1,7 +1,5 @@
 package com.figurefields;
-
 import com.figurefields.figure_choice.FigureChoiceDirector;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

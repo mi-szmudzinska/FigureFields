@@ -1,17 +1,13 @@
 package com.figurefields.figure_choice;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 import com.figurefields.Constants;
 import com.figurefields.figures.Figure;
-
 /*
     Klasa abstrakcyjna, ktora odpowiada za wprowadzanie danych przez uzytkownika dla odpowieniej figury.
     Klasy dziedziczace po tej klasie odpowiadaja za wprowadzanie danych i wypisaywanie wynik dla odpowieniej figury,
     np. SquareChoice wczytuje dane dla kwadratu i wypisuje wynik
  */
-
 public abstract class FigureChoice {
 
     protected InputValidator inputValidator;
@@ -57,7 +53,6 @@ public abstract class FigureChoice {
     protected abstract Figure stworzFigure();
 
     public void wypiszDaneNiepoprawne() {
-
         System.out.println(Constants.BLEDNE_DANE);
     }
 

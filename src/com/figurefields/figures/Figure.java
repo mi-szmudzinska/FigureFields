@@ -17,7 +17,7 @@ public class Figure {
 
     public String getFigureUnit() {
         if (type.equals(FigureType.TwoD)) {
-            return "cm";
+            return "cm2";
         }
         return "cm2";
     }

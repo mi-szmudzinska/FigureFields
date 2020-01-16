@@ -14,7 +14,6 @@ public class Square extends Figure {
     }
 
     public float getA() {
-
         return a;
     }
 

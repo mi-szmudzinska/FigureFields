@@ -1,5 +1,4 @@
 package com.figurefields.figure_choice.choices;
-
 import java.util.Scanner;
 import com.figurefields.figure_choice.FigureChoice;
 import com.figurefields.figure_choice.InputValidator;
